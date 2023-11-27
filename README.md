@@ -1,0 +1,2 @@
+# SchistoscopeDocs
+documentation for schistoscope
