@@ -21,9 +21,9 @@ jobs:
 
       - name: Install dependencies
         run: | 
-          # cd classic
+          cd classic
           npm ci
       - name: Build website
         run: |
-          # cd classic
+          cd classic
           npm run build
