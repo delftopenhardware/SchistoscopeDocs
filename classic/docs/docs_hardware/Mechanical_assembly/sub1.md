@@ -4,10 +4,15 @@ sidebar_position: 1
 
 # Sub Assembly 1 - Optics
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
 <div>
-    <object data="/img/test/OpticalSubassembly.svg" type="image/svg+xml" id="mySVG"></object>
+    <object data={useBaseUrl('/img/test/OpticalSubassembly.svg')} type="image/svg+xml" id="mySVG"></object>
 </div>
 
+
+<!-- ![Electromagnetic (EM) spectrum](/img/test/OpticalSubassembly.svg) -->
 
 <details>
   <summary>Toggle me!</summary>
