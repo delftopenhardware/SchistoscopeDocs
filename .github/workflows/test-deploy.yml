@@ -19,6 +19,8 @@ jobs:
           cache: npm
 
       - name: Install dependencies
+        run: cd classic
         run: npm ci
-      - name: Test build website
+      - name: Build website
+        run: cd classic
         run: npm run build
