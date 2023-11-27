@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-# Sub Assembly - X-Y Stage
+# Sub Assembly - Light Source 
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

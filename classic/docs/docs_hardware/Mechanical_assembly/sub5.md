@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# Sub Assembly - X-Y Stage
+# Sub Assembly - Enclosure
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
