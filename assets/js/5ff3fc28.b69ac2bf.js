@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[7098],{8775:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/SchistoscopeDocs/blog/tags/hello","allTagsPath":"/SchistoscopeDocs/blog/tags","count":2,"unlisted":false}')}}]);
