@@ -20,14 +20,15 @@ jobs:
         with:
           node-version: 18
           cache: npm
+          cache-dependency-path: ./classic/package-lock.json
 
       - name: Install dependencies
         run: | 
-          cd classic
+          # cd classic
           npm ci
       - name: Build website
         run: |
-          cd classic
+          # cd classic
           npm run build
 
       # Popular action to deploy to GitHub Pages:
