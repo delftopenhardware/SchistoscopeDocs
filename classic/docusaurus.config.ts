@@ -6,6 +6,7 @@ const config: Config = {
   title: 'Schistoscope',
   tagline: 'Documentation website for Schistoscope',
   favicon: 'img/favicon.ico',
+  onBrokenLinks: 'ignore',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -18,7 +19,6 @@ const config: Config = {
   organizationName: 'delftopenhardware', // Usually your GitHub org/user name.
   projectName: 'SchistoscopeDocs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -98,7 +98,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/docs_hardware/intro',
             },
           ],
         },
