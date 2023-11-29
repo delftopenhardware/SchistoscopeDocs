@@ -9,7 +9,7 @@ const config: Config = {
   onBrokenLinks: 'ignore',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://delftopenhardware.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/SchistoscopeDocs/',
@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/delftopenhardware/SchistoscopeDocs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/delftopenhardware/SchistoscopeDocs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,7 +61,7 @@ const config: Config = {
       title: 'Schistoscope',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/Logo-inspired.png',
       },
       items: [
         {
@@ -106,8 +106,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Inspired Website',
+              href: 'https://inspired-diagnostics.info/',
             },
           ],
         },
@@ -117,10 +117,6 @@ const config: Config = {
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/delftopenhardware/SchistoscopeDocs',
             },
           ],
         },
