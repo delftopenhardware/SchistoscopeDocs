@@ -5,9 +5,6 @@ sidebar_position: 1
 # Introduction
 
 what is the Schistoscope?
-The Schistoscope is an automated 3D Microscope to automaticly detect Schistosoma eggs in urine samples using machine learning. It is a low-cost, open-source device that can be used in low-resource settings. The Schistoscope is a collaboration between the X Y and Z. 
-
-![Schistoscope](/img/overview.png)
 
 ![Example banner](/img/heroShot.svg)
 ## Features
