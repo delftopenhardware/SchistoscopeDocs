@@ -4,15 +4,14 @@ sidebar_position: 1
 
 # Introduction
 
-what is the Schistoscope?
-
-![Example banner](/img/heroShot.svg)
+![Example banner](/img/Picture2.jpg)
 ## Features
 - Fits a standard microscope slide
 - Automated scanning of the whole slide
 - Easy connect with external screen and keyboard, or remote desktop
 - accelerated image processing with Google Coral TPU
 
+![Example banner](/img/heroShot.svg)
 
 ## Bill Of Materials (BOM)
 Open in new tab: [Bill of Material](https://github.com/regerohan/Schistoscope/blob/master/BOM/BOM.MD)  
