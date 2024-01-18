@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 
 # Introduction
 
 ![Example banner](/img/Picture2.jpg)
+:::info news
+We are certified! find out more [here](https://certification.oshwa.org/nl000016.html)
+<img src={useBaseUrl("/img/certification-mark-NL000016-wide.svg")} alt="Image" width="500"/>
+:::
+
 ## Features
 - Fits a standard microscope slide
 - Automated scanning of the whole slide

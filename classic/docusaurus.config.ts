@@ -99,8 +99,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Hardware',
               to: '/docs/docs_hardware/intro',
+            },
+            {
+              label: 'Software',
+              to: '/docs/docs_software/intro',
+            },
+            {
+              label: 'Data',
+              to: '/docs/docs_data/intro',
             },
           ],
         },
@@ -117,8 +125,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Papers',
+              to: '/papers',
             },
           ],
         },
