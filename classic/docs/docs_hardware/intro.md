@@ -223,7 +223,3 @@ In order to build the Schistoscope, you will need the following tools:
 ## Skills
 In order to build the Schistoscope, you will need the following skills:
 General design eningeering skills, including knowledge of CAD, 3D pinting, lasercutting, electronics, software installation and calibration.
-
-## References
-- [Paper: Schistoscope: An Automated Microscope with Artificial Intelligence for Detection of Schistosoma haematobium Eggs in Resource-Limited Settings](https://www.mdpi.com/2072-666X/13/5/643)
-

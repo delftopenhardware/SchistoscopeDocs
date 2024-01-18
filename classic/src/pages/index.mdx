@@ -1,0 +1,104 @@
+---
+title: Welcome
+description: my hello page description
+hide_table_of_contents: false
+# toc_min_heading_level: 2
+# toc_max_heading_level: 6
+---
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import styles from './index.module.css';
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <h1>Schistoscope</h1>
+</div>
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={useBaseUrl('/img/schistoscope5.png')} alt="Image" width="600" />
+</div>
+<br></br>
+<br></br>
+<br></br>
+
+## Introduction
+Over 250 million people have been infected with schistosomiasis a waterborne parasitic infection. Early treatment is key in preventing deaths and reducing long term morbidity. To ensure this, access to accurate diagnosis, which is frequently lacking in rural Africa, is crucial. We aim to improve the quality of and access to diagnosis of Schistosomiasis in rural Africa with the Schistoscope. The device will be based on smart algorithms used with an integrated Android mobile and feature locally manufacturable embodiment. The aim of this project is to develop a low cost, a smart diagnostic tool that can be locally manufactured and repaired to be accessible to the last mile health care providers. The Schistoscope will be designed to not require high expertise, thereby increasing the accessibility of the device.
+
+### What is Schistosomiasis
+
+Schistosomiasis is a waterborne neglected tropical disease with a high rate of morbidity and mortality in African countries. With 240 million people affected, it causes trouble in the mental development of children, fatal organ failure or bladder cancer. Due to lack of proper diagnostic methods, it is difficult to identify the endemic areas and treat infected populations
+Read more [here](https://en.wikipedia.org/wiki/Schistosomiasis).
+<img src={useBaseUrl('/img/Schisto.jpg')} alt="Image" width="40%"/>
+
+
+#### Challenges
+
+Early treatment of Schitosomiasis critically reduces the risks, for which access to accurate diagnosis is crucial. The diagnostic tools recommended by WHO have shortfalls. Either they are expensive or availability is subject to supply and some are also not deployable in a field setting. Diagnosis is usually performed by light microscopy (expensive and maintenance challenges) which involves trained medical staff who are scarce as well as can cause human-error.
+
+### What is the SchistoScope
+
+We propose a Schistoscope - which offers an integrated diagnostics solution (sample preparation and diagnosis) with the support of a smart algorithm (for detection and quantification of the Schistosoma eggs) which can be produced and maintained in Africa (use of locally available materials and manufacturing process). We will explore open source possibilities to improve accessibility and local manufacturability such as integrating 3D printing possibilities in the universities and maker labs. The core of the Schistoscope is a smart imaging platform composed of a locally available low-cost Android device, a low-cost imaging lens, and image recognition and classification algorithm. For sample preparation, 10 ml of urine will be dropped using a syringe through locally available filter material which is positioned on a plastic sample holder. The sample holder and the smartphone will be inserted in an ‘integration box’ to position the camera lens exactly above the sample. By capturing one image (one field of view) the algorithm will be able to diagnose the sample and share the results directly for treatment of the patient.
+
+## Papers
+
+
+[Smartphone versus Raspberry Pi based low-cost diagnostic device for urinary Schistosomiasis](https://delftdesignlabs.org/wp-content/uploads/2021/09/IEEE-2020-Schistoscope.pdf)  
+[Performance Evaluation of the Schistoscope 5.0 for (Semi-)automated Digital Detection and Quantification of Schistosoma haematobium Eggs in Urine](https://www.ajtmh.org/view/journals/tpmd/107/5/article-p1047.xml)  
+[Two-stage automated diagnosis framework for urogenital schistosomiasis in microscopy images from low-resource settings](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-04/044005/Two-stage-automated-diagnosis-framework-for-urogenital-schistosomiasis-in-microscopy/10.1117/1.JMI.10.4.044005.full#_=_)  
+[An Automated Microscope with Artificial Intelligence for Detection of Schistosoma haematobium Eggs in Resource-Limited Settings](https://www.mdpi.com/2072-666X/13/5/643)
+
+
+## Hardware development history of the Schistoscope
+**Version 1A and 1B**
+<img src={useBaseUrl('/img/olderVersions/version1a.png')} alt="Image" width="40%"/>
+<img src={useBaseUrl('/img/olderVersions/version1b.png')} alt="Image" width="40%"/>
+**Version 2A and 2B**
+<img src={useBaseUrl('/img/olderVersions/version2a.png')} alt="Image" width="40%"/>
+<img src={useBaseUrl('/img/olderVersions/version2b.png')} alt="Image" width="40%"/>
+**Version 3A and 3B**
+<img src={useBaseUrl('/img/olderVersions/version3a.png')} alt="Image" width="40%"/>
+<img src={useBaseUrl('/img/olderVersions/version3b.png')} alt="Image" width="40%"/>
+**Version 4A and 4B**
+<img src={useBaseUrl('/img/olderVersions/version4a.png')} alt="Image" width="40%"/>
+<img src={useBaseUrl('/img/olderVersions/version4b.png')} alt="Image" width="40%"/>
+**Final Version 5**
+<img src={useBaseUrl('/img/olderVersions/version5.png')} alt="Image" width="80%"/>
+<br></br>
+<br></br>
+<br></br>
+
+## Open access
+Our goal for this project is to ensure its longevity. That's why we have meticulously documented every aspect of the Schistoscope, making it replicable for anyone interested!
+<div className={styles.buttons}>
+  <Link
+    className="button button--secondary button--lg"
+    to="/docs/docs_hardware/intro">
+    Start reading the documentation 🚀
+  </Link>
+</div>
+<br></br>
+<br></br>
+<br></br>
+
+
+## Project Leads
+
+[Jan Carel Diehl](https://www.linkedin.com/in/ACoAAABbRMcB7e6BGrr1RSTnr0zb1OZiYV6qDl0)    
+[Temitope Agbana](https://www.linkedin.com/in/ACoAACL6wkIBzpucRi4FtOnyupc0aOChCph7y9A)
+[Lisette Van Lieshout](https://www.linkedin.com/in/ACoAAAH4UFsB8i7fGt2HvakklwJ-Iok5Jhi56_E)  
+[Prosper Oyibo](https://www.linkedin.com/in/ACoAAAmbGt4BGbTH5hazKbjb0cHsNWxr0BEnJZ4)  
+[Wellington Oyibo](https://www.linkedin.com/in/ACoAAANDYuABzd40I-4GYO4mn9u0m3DTtaeaf9c)  
+[Brice Meulah T.](https://www.linkedin.com/in/ACoAACE4oggBpQupCfDnUCKFtYicPq8NIteNb8M)  
+[Adeola Onasanya](https://www.linkedin.com/in/ACoAAA6ZEogBmWRoQLr9jMI5fk7pjQaC9pqj020)   
+
+### Contributions
+<img src={useBaseUrl('/img/Picture5.jpg')} alt="Image" width="60%"/>
+
+- Delft Centre for Systems and Control l Delft University of Technology
+- Department of Parasitology l Leiden University Medical Centre
+- Industrial Design Engineering l Delft University of Technology
+- Delft Global Initiative l Delft University of Technology
+- Public Health l University of Ibadan, Nigeria
+- College of Medicine l University of Lagos, Nigeria
+
+
+The INSPiRED project is a collaborative project of Leiden University Medical Center, Delft University of Technology, University of Ibadan, University of Lagos and CERMEL to develop new diagnostic devices for malaria, schistosomiasis, and hookworm.

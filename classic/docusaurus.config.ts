@@ -82,7 +82,9 @@ const config: Config = {
           position: 'left',
           label: 'Data',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: 'papers', label: 'Papers', position: 'left'},
+        {href: 'https://inspired-diagnostics.info/', label: 'Inspired', position: 'left'},
+        
         {
           href: 'https://github.com/delftopenhardware/SchistoscopeDocs',
           label: 'GitHub',
