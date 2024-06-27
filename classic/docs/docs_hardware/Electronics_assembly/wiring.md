@@ -1,21 +1,11 @@
 ---
 sidebar_position: 2
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 
 # Wiring
 
-Let's translate `docs/intro.md` to French.
+follow the following diagram for the wiring. use appropriate AWG thickness wire for each cable, this can be found in  the BOM.
 
-## Configure i18n
-
-Modify `docusaurus.config.js` to add support for the `fr` locale:
-
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
-
+<img src={useBaseUrl("/img/wiring_schematic.jpg")} alt="Image" width="800"/>

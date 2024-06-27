@@ -1,23 +1,15 @@
 ---
 sidebar_position: 1
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 
 # PCB
 
-Docusaurus can manage multiple versions of your docs.
+originally designed in EasyEDA: https://oshwlab.com/jerzeek/microscope_pcb
 
-## Create a docs version
+all files required to order the PCB can be found here: https://github.com/delftopenhardware/Schistoscope/tree/master/CAD/eCAD/Schistoscope%20PCB
 
-Release a version 1.0 of your project:
-
-```bash
-npm run docusaurus docs:version 1.0
-```
-
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
-
-Your docs now have 2 versions:
-
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
-
+<img src={useBaseUrl("/img/pcb_schematic.jpg")} alt="Image" width="500"/>
+<img src={useBaseUrl("/img/pcb_schematic2.jpg")} alt="Image" width="500"/>
+<img src={useBaseUrl("/img/pcb_front.png")} alt="Image" width="500"/>
